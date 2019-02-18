@@ -17,7 +17,10 @@ int main() {
 
   int N;
   cin >> N;
+  
+  if (text.length() != 0) {
+    cout << text << "!" << endl;
+  }
 
-  cout << text << endl;
   cout << price * N << endl;
 }
